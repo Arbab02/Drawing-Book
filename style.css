@@ -1,0 +1,90 @@
+*{
+margin: 0px;
+padding: 0px;  
+
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image:url('day.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#wallHouse{
+height: 18rem;
+  width: 39.8rem;
+  border: 1px solid #6a6868;
+  margin: 0rem 0px 0px 25rem;
+  position: absolute;
+  background-color:white;
+}
+
+#roof{
+height: 0rem;
+    width: 0rem;
+  margin: -24rem 0px 0px 25rem;
+  border-bottom:20rem solid  grey;
+   border-top: 20rem solid transparent;
+   border-left: 20rem solid transparent;
+   border-right: 20rem solid transparent;
+}
+
+#door{
+height: 10rem;
+    width: 9rem;
+  margin: 8rem 0px 0px 41.5rem;
+  background-color: grey;
+  position: relative;
+
+}
+
+.container{
+
+border-radius: 30px;
+background-color: #f2f2f2;  
+  margin: 8px 0px 0px 2px;
+  height: 2rem;
+  width: 5rem ;
+   transition: 0.5s ease-in-out;
+  position:absolute;
+  box-shadow: 2px 2px 10px 1px black;
+}
+
+.toggler{
+background-color: #4c4848;
+   height: 2rem;
+    width: 2rem ;
+  border-radius: 50%;
+position: relative ;
+   transition: 0.5s ease-in-out;
+}
+
+.toggling{
+background-color: #4c4848;
+   height: 2rem;
+    width: 2rem ;
+  border-radius: 50%;
+  margin-left: 48px;
+   transition: 0.5s ease-in-out; 
+}
+
+.dark-theme{
+  background-image:url('night.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main{
+margin-left: 40rem;
+margin-top: 10rem;
+  
+}
+
+#box{
+  width: 24rem;
+  height: 4rem;
+  background-color: brown;
+  margin: 1rem 0px 0px 3rem;
+  border-radius: 10px;
+}

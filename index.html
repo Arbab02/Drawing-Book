@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div id="box">
+    <select onchange="wall(this.value)">
+      <option value="">Wall Color</option>
+      <option value="black">Black</option>
+      <option value="green">Green</option>
+      <option value="red">Red</option>
+      <option value="yellow">Yellow</option>
+      <option value="blue">Blue</option>
+    </select>
+
+    <select onchange="roofColor(this.value)">
+      <option value="">Roof Color</option>
+      <option value="black">Black</option>
+      <option value="green">Green</option>
+      <option value="red">Red</option>
+      <option value="yellow">Yellow</option>
+      <option value="blue">Blue</option>
+    </select>
+
+    <select onchange="doorColor(this.value)">
+      <option value="">Door Color</option>
+      <option value="black">Black</option>
+      <option value="green">Green</option>
+      <option value="red">Red</option>
+      <option value="yellow">Yellow</option>
+      <option value="blue">Blue</option>
+    </select>
+    <div class="container" onclick="myfunction()">
+      <div class="toggler" id="cont"></div>
+    </div>
+  </div>
+  <div id="roof"></div>
+  <div id="wallHouse"></div>
+  <div id="door"></div>
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
